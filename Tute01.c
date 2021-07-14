@@ -5,6 +5,17 @@
 #include <stdio.h>
 
 int main() {
+
+  int x,y,avg;
+
+  printf("enter no.1:");
+  scanf("%d",&x);
+
+  printf("enter no.2:");
+  scanf("%d",&y);
+
+  avg=(x+y)/2;
+  printf("the average is:%d",avg);
   
   return 0;
 }

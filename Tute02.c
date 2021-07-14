@@ -19,6 +19,21 @@ Amount = 30 x 50 + (50-30) x 40 = 2300*/
 #include <stdio.h>
 
 int main() {
+
+  int d, p;
+
+  printf("enter the distance travelled:");
+  scanf("%d", &d);
+
+  if(d <= 30){
+    p=d*50;
+   }
   
+  else(d > 30){
+    p=(30*50) + (d-30) * 40;    
+  }
+
+  printf("the price of the rental is \t %d", p);
+
   return 0;
 }
